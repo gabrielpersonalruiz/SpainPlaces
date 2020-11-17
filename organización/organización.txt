@@ -1,2 +1,4 @@
 En las imagenes vemos como se va a estructurar las paginas. cada uno hara una pagina de un lugar pero habran 3 paginas comunes que seran la home, el about us y la galeria de imagenes.
 Todas las paginas tendran el mismo formato CSS aunque cada uno escoja que informacion y cantidad de imagenes escoge.
+
+IMPORTANTE QUE CADA UNO ESCOJA EL LUGAR QUE VA A REALIZAR Y QUE LO COMENTE AL GRUPO!!!!!
