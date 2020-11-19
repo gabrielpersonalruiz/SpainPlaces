@@ -14,34 +14,6 @@
      background-color:#FAD7A0;
  }
 
- nav{
-     position:relative;
-     background-color: #f6b652;
-     width:60%;
-     height:40px;
-     margin: 0px auto;
-     padding: 10px;
-     text-align: center;
-     padding-top:25px;
-     
- }
-
- nav a{
-    color: black;
-    font-family:Verdana, Geneva, sans-serif;
-    padding-left : 20px;
-    padding-right : 20px;
-    font-weight: bold;
-    text-decoration: none;
-    vertical-align: middle;
-   
- }
-
- nav a:hover{
-     color: #f6b652;
- }
-
-
  form{
     position:relative;
     background-color: #f6b652;
@@ -90,3 +62,27 @@ header,section,footer,aside,article,nav, form, div{
     text-align:center;
     font-style:italic;
  }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  li {
+    float:left;
+    padding-left: 12%;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
