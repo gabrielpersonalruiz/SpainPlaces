@@ -1,0 +1,27 @@
+* {
+    margin:0; 
+    padding:0; 
+    border:0;
+}
+
+ html, body {
+     width: auto;
+     height: 100%;
+     padding: 20px;
+     font-family:Verdana, Geneva, sans-serif;
+     background-color:rgb(219, 240, 240);
+ }
+
+ header, nav{
+     position:relative;
+     background-color: grey;
+     color: black;
+     width:99%;
+     height:150px;
+     margin: 0px auto;
+ }
+  
+header,section,footer,aside,article,nav{
+    border-radius: 10px;
+    margin:5%;
+}
