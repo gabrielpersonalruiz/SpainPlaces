@@ -5,18 +5,19 @@
 }
 
  body {
+     text-align: justify;
      width: auto;
      height: 100%;
      padding-left: 4%;
      padding-right: 4%;
      font-family:Verdana, Geneva, sans-serif;
-     background-color:rgb(219, 240, 240);
+     background-color:#FAD7A0;
  }
 
  nav{
      position:relative;
-     background-color: grey;
-     width:80%;
+     background-color: #f6b652;
+     width:60%;
      height:40px;
      margin: 0px auto;
      padding: 10px;
@@ -37,12 +38,12 @@
  }
 
  nav a:hover{
-     color:rgb(207, 207, 224);
+     color#f6b652;
  }
 
  form{
     position:relative;
-    background-color: grey;
+    background-color: #f6b652;
     width:auto;
     margin: 0px auto;
     padding: 10px;
@@ -51,7 +52,7 @@
 
 div{
     position:relative;
-    background-color: grey;
+    background-color: #f6b652;
     width:auto;
     margin: 0px auto;
     padding: 15px;
