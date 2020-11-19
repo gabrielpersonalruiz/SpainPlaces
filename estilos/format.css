@@ -28,6 +28,7 @@ div{
     background-color: #f6b652;
     width:auto;
     margin: 0px auto;
+    margin-bottom:15px;
     padding: 15px;
     align-items: center;
 }
@@ -35,6 +36,12 @@ div{
 img{
     text-align: center;
     align-items: center;
+}
+
+h1{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
 }
 
 h2, h3{
@@ -45,13 +52,12 @@ h2, h3{
 header,section,footer,aside,article,nav, form, div{
     border-radius: 10px;
 }
-.listadiferente ul{
-    position:relative;
-    background-color: #f6b652;
-    width:auto;
-    margin: 0px auto;
-    padding: 15px;
-    align-items: center;
+
+
+.imagencentrada{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 
 /*CSS de Irati*/
