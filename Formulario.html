@@ -18,24 +18,25 @@
         <li><a href="Irati.html">Irati Forest</a></li>
         <li><a href="Formulario.html ">Contact</a></li>
     </ul>
-    <p></br></p>
+    <p><br/></p>
     <h2>Contact Form</h2>
-    <form action="Index.html" method="POST">
-        <legend>Personal information</legend>
-        <p><input maxlength="70" name="name" required size="70" type="text" autofocus placeholder="Write your name" />
+    <form action="Index.html" method="post">
+        <p><label>Personal information</label></p>
+        <p><input maxlength="70" name="name" size="70" type="text"/><br/>
         </p>
-        </br>
+        
         <p> <label>Email:</label>
-            <input name="email" required type="email" placeholder="Write your email " /></p><br>
-        <p> <label>Phone number</label></p><br>
-        <p> <input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" /></p></br>
+            <input type="text" name="email"/><br/></p>
+        <p> <label>Phone number</label><br/></p>
+        <p> <input name="phone" type="text" /><br/></p>
         <p>Sexo:
-            <input type="radio" name="hm" value="m"> Man
-            <input type="radio" name="hm" value="w"> Woman
-        </p></br>
-        <p>What would you like to know about Spain?</p></br>
-        <p><textarea id="about you" name="about you" rows="6" cols="60"></textarea> </p>
-        <input type="submit" name="Send" value="Send" />
+            <input type="radio" name="hm" value="m"/> Man
+            <input type="radio" name="hm" value="w"/> Woman
+            <br/></p>
+        <p>What would you like to know about Spain?<br/></p>
+        <p><textarea id="aboutyou" name="about you" rows="6" cols="60"></textarea> </p>
+        <p><input type="submit" name="Send" value="Send"/></p>
+        
     </form>
 </body>
 
