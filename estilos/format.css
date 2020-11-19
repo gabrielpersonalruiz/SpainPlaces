@@ -71,3 +71,20 @@ h2, h3{
 header,section,footer,aside,article,nav, form, div{
     border-radius: 10px;
 }
+
+/*CSS de Irati*/
+.int {
+     display:block;
+     margin:auto;
+ }
+ .parrafo{
+    text-align: justify;
+    font-style:italic; 
+    line-height: 30pt;
+    font-size: 12pt;
+ }
+ .titulo{
+    margin:auto;
+    text-align:center;
+    font-style:italic;
+ }
