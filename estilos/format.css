@@ -15,9 +15,20 @@
  }
 
  form{
+     color:  #333333;
+    font-family: fantasy;
     position:relative;
     background-color: #f6b652;
     width:auto;
+    margin: 0px auto;
+    padding: 10px;
+    padding-top:25px;
+}
+.uno {
+    
+    position:relative;
+    background-color:  #333333;
+    width:32%;
     margin: 0px auto;
     padding: 10px;
     padding-top:25px;
@@ -60,17 +71,26 @@ header,section,footer,aside,article,nav, form, div{
     margin-bottom: 2px;
 }
 
-/*CSS de Irati*/
+
 .int {
      display:block;
      margin:auto;
  }
+ 
  .parrafo{
     text-align: justify;
     font-style:italic; 
     line-height: 30pt;
     font-size: 12pt;
  }
+ .parrafo2{
+    text-align: justify;
+    font-style:italic; 
+    line-height: 30pt;
+    font-size: 12pt;
+ }
+
+
  .titulo{
     margin:auto;
     text-align:center;
@@ -99,4 +119,31 @@ header,section,footer,aside,article,nav, form, div{
 
   li a:hover {
     background-color: #111111;
+  }
+   
+  .centro{
+    text-align: center;
+    align-items: center;
+  }
+  .list{
+    position:relative;
+    background-color: #f6b652;
+    width:52%;
+    margin: 0px auto;
+    margin-bottom:15px;
+    padding: 15px;
+    align-items: center;
+  }
+  .t2{
+    text-align: center;
+  }
+
+  .lista{
+    position:relative;
+    background-color: #f6b652;
+    width:37%;
+    margin: 0px auto;
+    margin-bottom:15px;
+    padding: 15px;
+    align-items: center;
   }
